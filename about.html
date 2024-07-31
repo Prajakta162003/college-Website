@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Desigh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="bs/logo.jpg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="cource.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>About Us</h1>
+    </section>
+    
+    <!-- --------about us content------- -->
+    <section class="about-us">
+        <div class="row">
+        <div class="about-col">
+            <h1>We are largest university</h1>
+            <p>Karmaveer Bhaurao Patil Mahavidyalaya, Pandharpur is a leading College, rendering quality education in Arts,Commerce & Science faculties. It is established in 1960 with the name 'Pandharpur College, Pandharpur' in Namdas Maharaj Math with 40 students  by Rayat Shikshan Sanstha, Satara founded by Late Padmabhushan Dr. Karmaveer Bhaurao Patil. It was renamed in 1992 as ' Karmaveer Bhaurao Patil Mahavidyalaya, Pandharpur'
+
+                Initially it was affiliated to Pune University, Pune, later in 1965 it got affiliation of Shivaji University, Kolhapur. At present it is affiliated to Solapur University, Solapur. Which is established in Aug.2004.At present there are more than 6500 students persuing there education from XI std. to Ph.D. in different faculties.</p>
+                 <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="bs/about11..jpg" alt="">
+        </div>
+        </div>
+    </section>
+
+    <!-- ------Footer--- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione id reprehenderit esse consequuntur labore, sapiente animi optio,<br> iure doloribus eligendi Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+
+        </div>
+        <p>Made With <i class="fa fa-heart"></i>by Easy Tutorials </p>
+
+    </section>
+
+    <!-- JAVASCRIPT for toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+  
+</body>
+
+</html>
